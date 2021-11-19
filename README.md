@@ -17,6 +17,11 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [Glitch, The Underrated Tool](https://www.weckmann.me/posts/glitch-its-underrated/)
+- [[Matrix] - Open Source Encrypted Messaging](https://www.weckmann.me/posts/matrix-opensource-encrypted-messaging/)
+- [Homer Dashboard](https://www.weckmann.me/posts/homer-dashboard/)
+- [Change Default Pi Username](https://www.weckmann.me/posts/change-default-pi-username/)
+- [Jekyll Nginx Server](https://www.weckmann.me/posts/jekyll-nginx-server/)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
