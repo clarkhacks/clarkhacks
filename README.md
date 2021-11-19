@@ -13,7 +13,7 @@
 
 - ⚡ Fun fact [I can unicycle!](I can unicycle!)
 
-- Important Links [links.weckmann.me](https://links.weckmann.me/)
+- Important Links [View My Links](https://wkmn.glitch.me/)
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
