@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **contact@wkmn.us**
 
-- ⚡ Fun fact [I can unicycle!](I can unicycle!)
+- ⚡ Fun fact, I can unicycle!
 
 - Important Links [View My Links](https://wkmn.glitch.me/)
 
