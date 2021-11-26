@@ -13,7 +13,11 @@
 
 - ⚡ Fun fact, I can unicycle!
 
-- Important Links [View My Links](https://wkmn.glitch.me/)
+- Important Links [View My Links](https://clark.weckmann.me/)
+
+<h2 align="center">A Little More!</h2>
+
+I'm a DevOps engineer located on Earth, for now. Currently, I'm addicted to self-hosting everything! My quest, for the time being, is updating my online presence and spending time with my family. Feel free to ask me questions about any of my projects listed here or anywhere else you find me! Fun fact about me, I can unicycle and, more importantly, eat pizza without using my hands.
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
