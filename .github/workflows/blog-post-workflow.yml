@@ -7,7 +7,7 @@ on:
     branches:
       - main
   schedule:
-    # Runs every hour
+    # Hourly
     - cron: '0 * * * *'
 jobs:
   update-readme-with-blog:
