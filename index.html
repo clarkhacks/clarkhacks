@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Links Page</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clark Weckmann - Links</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: #000000;
+            min-height: 100vh;
+        }
+        .glass-effect {
+            background: rgba(28, 28, 30, 0.8);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .link-item {
+            transition: all 0.3s ease;
+            background: rgba(44, 44, 46, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .link-item:hover {
+            background: rgba(58, 58, 60, 0.8);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+        .profile-image {
+            transition: transform 0.3s ease;
+        }
+        .profile-image:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center p-4">
+    <div class="w-full max-w-sm mx-auto">
+        <!-- Phone Frame -->
+        <div class="glass-effect rounded-3xl p-8 shadow-2xl">
+            <!-- Profile Section -->
+            <div class="text-center mb-8">
+                <div class="relative inline-block mb-4">
+                    <img src="https://cdn.clark.today/logos/logo-white.png" 
+                         alt="Clark Weckmann" 
+                         class="profile-image w-20 h-20 rounded-full object-cover border-3 border-white/20 shadow-lg">
+                </div>
+                <h1 class="text-white text-xl font-semibold mb-1">Clark Weckmann</h1>
+                <p class="text-white/70 text-sm">Developer & Creator</p>
+            </div>
+
+            <!-- Links Section -->
+            <div class="space-y-4 mb-6">
+                <!-- Blog Link -->
+                <a href="https://www.clark.today" 
+                   target="_blank"
+                   class="link-item flex items-center p-4 rounded-2xl text-white group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 mr-4 group-hover:bg-white/20 transition-colors">
+                        <i class="fas fa-comment text-lg"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-medium text-white">Personal Blog</h3>
+                        <p class="text-white/60 text-sm">Latest thoughts and projects</p>
+                    </div>
+                    <i class="fas fa-external-link-alt text-white/40 group-hover:text-white/60 transition-colors"></i>
+                </a>
+
+                <!-- CodePen Link -->
+                <a href="https://codepen.io/clarktoday" 
+                   target="_blank"
+                   class="link-item flex items-center p-4 rounded-2xl text-white group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 mr-4 group-hover:bg-white/20 transition-colors">
+                        <i class="fab fa-codepen text-lg"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-medium text-white">CodePen</h3>
+                        <p class="text-white/60 text-sm">Code experiments and demos</p>
+                    </div>
+                    <i class="fas fa-external-link-alt text-white/40 group-hover:text-white/60 transition-colors"></i>
+                </a>
+
+                <!-- RdRx Link -->
+                <a href="https://github.com/clarkhacks/RdRx" 
+                   target="_blank"
+                   class="link-item flex items-center p-4 rounded-2xl text-white group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 mr-4 group-hover:bg-white/20 transition-colors">
+                        <span class="text-lg">⭐</span>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-medium text-white">RdRx</h3>
+                        <p class="text-white/60 text-sm">Open source project</p>
+                    </div>
+                    <i class="fas fa-external-link-alt text-white/40 group-hover:text-white/60 transition-colors"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add some interactive effects
+        document.querySelectorAll('.link-item').forEach(item => {
+            item.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-2px) scale(1.02)';
+            });
+            
+            item.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+
+        // Add click effect to explore more button
+        document.querySelector('button').addEventListener('click', function() {
+            this.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+            }, 150);
+        });
+    </script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
