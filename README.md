@@ -19,6 +19,11 @@
 
 ### Blogs posts
 <!-- DEVDOJO:START -->
+- [Introducing My Attribution Button Generator: Effortless, Customizable Branding for Your Website](https://www.clark.today/blog/attribution-button/)
+- [RdRx: From Simple URL Shortener to Full-Featured Content Sharing Platform](https://www.clark.today/blog/rdrx-followup-post/)
+- [Fixed: Pocketbase Import Backup Fails - Lost Encryption Key](https://www.clark.today/blog/pocketbase-lost-encryption-key/)
+- [Automation at Work](https://www.clark.today/blog/automation-at-work/)
+- [Stop Scanning Random QR Codes](https://www.clark.today/blog/stop-scanning-random-qr-codes/)
 <!-- DEVDOJO:END -->
 
 <h3 align="left">Connect with me:</h3>
