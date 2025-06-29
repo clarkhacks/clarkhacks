@@ -1,35 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Clark Weckmann - Links</title>
-  
+
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  
+
   <!-- Font Awesome (for icons) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <style>
-    /* Optional glass-effect class using Tailwind-like styling */
+    Add comment More actions body {
+      background: #000000;
+      min-height: 100vh;
+    }
+
     .glass-effect {
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(28, 28, 30, 0.8);
       backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .link-item {
+      transition: all 0.3s ease;
+      background: rgba(44, 44, 46, 0.6);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .link-item:hover {
+      background: rgba(58, 58, 60, 0.8);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .profile-image {
+      transition: transform 0.3s ease;
+    }
+
+    .profile-image:hover {
+      transform: scale(1.05);
     }
   </style>
 </head>
+
 <body class="flex items-center justify-center min-h-screen bg-gray-900 p-4">
   <div class="w-full max-w-sm mx-auto">
     <div class="glass-effect rounded-3xl p-8 shadow-2xl border border-white/10">
-      
+
       <!-- Profile Section -->
       <div class="text-center mb-8">
         <div class="relative inline-block mb-4">
-          <img src="https://cdn.clark.today/logos/logo-white.png" 
-               alt="Clark Weckmann" 
-               class="w-20 h-20 rounded-full object-cover border-2 border-white/20 shadow-lg">
+          <img src="https://cdn.clark.today/logos/logo-white.png" alt="Clark Weckmann" class="w-20 h-20 rounded-full object-cover border-2 border-white/20 shadow-lg">
         </div>
         <h1 class="text-white text-xl font-semibold mb-1">Clark Weckmann</h1>
         <p class="text-white/70 text-sm">Developer & Creator</p>
@@ -38,8 +63,7 @@
       <!-- Links Section -->
       <div class="space-y-4 mb-6">
         <!-- Blog -->
-        <a href="https://www.clark.today" target="_blank"
-           class="link-item flex items-center p-4 rounded-2xl text-white group transition-transform duration-150">
+        <a href="https://www.clark.today" target="_blank" class="link-item flex items-center p-4 rounded-2xl text-white group transition-transform duration-150">
           <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 mr-4 group-hover:bg-white/20 transition-colors">
             <i class="fas fa-comment text-lg"></i>
           </div>
@@ -51,8 +75,7 @@
         </a>
 
         <!-- CodePen -->
-        <a href="https://codepen.io/clarktoday" target="_blank"
-           class="link-item flex items-center p-4 rounded-2xl text-white group transition-transform duration-150">
+        <a href="https://codepen.io/clarktoday" target="_blank" class="link-item flex items-center p-4 rounded-2xl text-white group transition-transform duration-150">
           <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 mr-4 group-hover:bg-white/20 transition-colors">
             <i class="fab fa-codepen text-lg"></i>
           </div>
@@ -64,8 +87,7 @@
         </a>
 
         <!-- RdRx -->
-        <a href="https://github.com/clarkhacks/RdRx" target="_blank"
-           class="link-item flex items-center p-4 rounded-2xl text-white group transition-transform duration-150">
+        <a href="https://github.com/clarkhacks/RdRx" target="_blank" class="link-item flex items-center p-4 rounded-2xl text-white group transition-transform duration-150">
           <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 mr-4 group-hover:bg-white/20 transition-colors">
             <span class="text-lg">⭐</span>
           </div>
@@ -95,10 +117,9 @@
         this.style.transform = 'translateY(0) scale(1)';
       });
     });
-
     const button = document.querySelector('button');
     if (button) {
-      button.addEventListener('click', function () {
+      button.addEventListener('click', function() {
         this.style.transform = 'scale(0.95)';
         setTimeout(() => {
           this.style.transform = 'scale(1)';
@@ -107,4 +128,5 @@
     }
   </script>
 </body>
+
 </html>
