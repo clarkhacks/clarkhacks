@@ -19,11 +19,11 @@
 
 ### Blogs posts
 <!-- DEVDOJO:START -->
+- [Building a Digital Shop with Square SDK and Astro](https://www.clark.today/blog/building-digital-shop-square-sdk/)
 - [Ditching Microsoft Business For Purelymail](https://www.clark.today/blog/ditching-microsoft-for-purelymail/)
 - [Adding TOTP-Based 2FA to SayHi.biz](https://www.clark.today/blog/totp/)
 - [Building SayHi.biz: A Smart Review Management Platform](https://www.clark.today/blog/sayhi-biz/)
 - [Introducing My Attribution Button Generator: Effortless, Customizable Branding for Your Website](https://www.clark.today/blog/attribution-button/)
-- [RdRx: From Simple URL Shortener to Full-Featured Content Sharing Platform](https://www.clark.today/blog/rdrx-followup-post/)
 <!-- DEVDOJO:END -->
 
 <h3 align="left">Connect with me:</h3>
